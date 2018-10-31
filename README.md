@@ -1,4 +1,8 @@
 # Hero-Collision
-A React webapp that creates superhero teams from various universes with the Superhero API.
+An in-development React App utilizing the Superhero API. Currently in front end development stage.
 
-Currently in mock up stage with the front end development completed. API integration is in progress!
+S1) Complete Front End development --DONE!
+
+S2) Integrate full API --IN PROGRESS!
+
+S3) Add team battle functionality with multiple teams --IN PROGRESS!

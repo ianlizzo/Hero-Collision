@@ -1,0 +1,40 @@
+.SearchDetails {
+  font-family: 'Futura';
+}
+
+#hero-details {
+  display: flex;
+  margin-top: 1rem;
+  background-color: #1f292e;
+  -moz-box-shadow: inset 0 0 7px #000000;
+  -webkit-box-shadow: inset 0 0 7px #000000;
+  box-shadow: inset 0 0 7px #000000;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  color: whitesmoke;
+  overflow: scroll;
+}
+
+#col-1, #col-2, #col-3, #col-4 {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  text-transform: uppercase;
+  margin-bottom: 1em;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+}
+
+#image-details {
+  box-shadow: 4px 5px 6px #000000;
+  height: 250px;
+  width: 200px;
+  margin-bottom: 15px;
+}
+
+#button-wrapper {
+  align-items: center;
+  justify-content: center;
+}
