@@ -1,0 +1,17 @@
+#welcome {
+  font-family: 'Futura';
+  color: white;
+  background-color: #1f292e;
+  -moz-box-shadow: inset 0 0 7px #000000;
+  -webkit-box-shadow: inset 0 0 7px #000000;
+  box-shadow: inset 0 0 7px #000000;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  padding: 5px;
+  width: 65%;
+  color: whitesmoke;
+  overflow: scroll;
+  text-align: center;
+  font-size: 40px;
+}

@@ -1,0 +1,1853 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Search bar API calls should populate the search results container when search results arrive 1`] = `
+<div
+  className="Search"
+>
+  <div
+    className="MuiPaper-root-9 MuiPaper-elevation2-13 MuiPaper-rounded-10 SearchBar-root-1 SearchBar"
+    style={
+      Object {
+        "marginLeft": "auto",
+        "marginRight": "auto",
+        "marginTop": 100,
+        "maxWidth": 1000,
+      }
+    }
+  >
+    <div
+      className="SearchBar-searchContainer-8"
+    >
+      <div
+        className="MuiInputBase-root-49 MuiInput-root-36 MuiInputBase-fullWidth-58 MuiInput-fullWidth-43 SearchBar-input-7"
+        onClick={[Function]}
+      >
+        <input
+          aria-invalid={undefined}
+          autoComplete={undefined}
+          autoFocus={undefined}
+          className="MuiInputBase-input-59 MuiInput-input-44"
+          defaultValue={undefined}
+          disabled={false}
+          id={undefined}
+          name={undefined}
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onKeyDown={undefined}
+          onKeyUp={[Function]}
+          placeholder="Search"
+          readOnly={undefined}
+          required={undefined}
+          rows={undefined}
+          type="text"
+          value="batman"
+        />
+      </div>
+    </div>
+    <button
+      className="MuiButtonBase-root-72 MuiIconButton-root-66 SearchBar-iconButton-2 SearchBar-searchIconButton-5 SearchBar-iconButtonHidden-3"
+      disabled={false}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      tabIndex="0"
+      type="button"
+    >
+      <span
+        className="MuiIconButton-label-71"
+      >
+        <svg
+          aria-hidden="true"
+          className="MuiSvgIcon-root-75 SearchBar-icon-6"
+          color={undefined}
+          focusable="false"
+          role="presentation"
+          style={
+            Object {
+              "color": "#9e9e9e",
+            }
+          }
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"
+          />
+          <path
+            d="M0 0h24v24H0z"
+            fill="none"
+          />
+        </svg>
+      </span>
+      <span
+        className="MuiTouchRipple-root-84"
+      />
+    </button>
+    <button
+      className="MuiButtonBase-root-72 MuiIconButton-root-66 SearchBar-iconButton-2"
+      disabled={false}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      tabIndex="0"
+      type="button"
+    >
+      <span
+        className="MuiIconButton-label-71"
+      >
+        <svg
+          aria-hidden="true"
+          className="MuiSvgIcon-root-75 SearchBar-icon-6"
+          color={undefined}
+          focusable="false"
+          role="presentation"
+          style={
+            Object {
+              "color": "#9e9e9e",
+            }
+          }
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+          />
+          <path
+            d="M0 0h24v24H0z"
+            fill="none"
+          />
+        </svg>
+      </span>
+      <span
+        className="MuiTouchRipple-root-84"
+      />
+    </button>
+  </div>
+  <div
+    className="SearchResults"
+  >
+    <div
+      id="select-hero"
+      onClick={[Function]}
+    >
+      <div
+        className="Hero"
+      >
+        <div
+          className="hero-image"
+          style={
+            Object {
+              "backgroundImage": "url(https://www.superherodb.com/pictures2/portraits/10/100/10441.jpg)",
+              "cursor": "pointer",
+            }
+          }
+        >
+          <div
+            className="text-box"
+          >
+            <p>
+              Batman
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      id="select-hero"
+      onClick={[Function]}
+    >
+      <div
+        className="Hero"
+      >
+        <div
+          className="hero-image"
+          style={
+            Object {
+              "backgroundImage": "url(https://www.superherodb.com/pictures2/portraits/10/100/639.jpg)",
+              "cursor": "pointer",
+            }
+          }
+        >
+          <div
+            className="text-box"
+          >
+            <p>
+              Batman
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      id="select-hero"
+      onClick={[Function]}
+    >
+      <div
+        className="Hero"
+      >
+        <div
+          className="hero-image"
+          style={
+            Object {
+              "backgroundImage": "url(https://www.superherodb.com/pictures2/portraits/10/100/1496.jpg)",
+              "cursor": "pointer",
+            }
+          }
+        >
+          <div
+            className="text-box"
+          >
+            <p>
+              Batman II
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="SearchDetails"
+  />
+</div>
+`;
+
+exports[`Search bar Search bar button should start with a search button that does not run on empty queries 1`] = `
+<div
+  className="Search"
+>
+  <div
+    className="MuiPaper-root-9 MuiPaper-elevation2-13 MuiPaper-rounded-10 SearchBar-root-1 SearchBar"
+    style={
+      Object {
+        "marginLeft": "auto",
+        "marginRight": "auto",
+        "marginTop": 100,
+        "maxWidth": 1000,
+      }
+    }
+  >
+    <div
+      className="SearchBar-searchContainer-8"
+    >
+      <div
+        className="MuiInputBase-root-49 MuiInput-root-36 MuiInputBase-fullWidth-58 MuiInput-fullWidth-43 SearchBar-input-7"
+        onClick={[Function]}
+      >
+        <input
+          aria-invalid={undefined}
+          autoComplete={undefined}
+          autoFocus={undefined}
+          className="MuiInputBase-input-59 MuiInput-input-44"
+          defaultValue={undefined}
+          disabled={false}
+          id={undefined}
+          name={undefined}
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onKeyDown={undefined}
+          onKeyUp={[Function]}
+          placeholder="Search"
+          readOnly={undefined}
+          required={undefined}
+          rows={undefined}
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+    <button
+      className="MuiButtonBase-root-72 MuiIconButton-root-66 SearchBar-iconButton-2 SearchBar-searchIconButton-5"
+      disabled={false}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      tabIndex="0"
+      type="button"
+    >
+      <span
+        className="MuiIconButton-label-71"
+      >
+        <svg
+          aria-hidden="true"
+          className="MuiSvgIcon-root-75 SearchBar-icon-6"
+          color={undefined}
+          focusable="false"
+          role="presentation"
+          style={
+            Object {
+              "color": "#9e9e9e",
+            }
+          }
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"
+          />
+          <path
+            d="M0 0h24v24H0z"
+            fill="none"
+          />
+        </svg>
+      </span>
+      <span
+        className="MuiTouchRipple-root-84"
+      />
+    </button>
+    <button
+      className="MuiButtonBase-root-72 MuiIconButton-root-66 SearchBar-iconButton-2 SearchBar-iconButtonHidden-3"
+      disabled={false}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      tabIndex="0"
+      type="button"
+    >
+      <span
+        className="MuiIconButton-label-71"
+      >
+        <svg
+          aria-hidden="true"
+          className="MuiSvgIcon-root-75 SearchBar-icon-6"
+          color={undefined}
+          focusable="false"
+          role="presentation"
+          style={
+            Object {
+              "color": "#9e9e9e",
+            }
+          }
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+          />
+          <path
+            d="M0 0h24v24H0z"
+            fill="none"
+          />
+        </svg>
+      </span>
+      <span
+        className="MuiTouchRipple-root-84"
+      />
+    </button>
+  </div>
+  <div
+    id="welcome"
+  >
+    <p>
+      Enter your favorite hero or villain!
+    </p>
+  </div>
+  <div
+    className="SearchResults"
+  />
+  <div
+    className="SearchDetails"
+  />
+</div>
+`;
+
+exports[`Search bar failed API calls should display an alert when the API call fails 1`] = `
+<div
+  className="Search"
+>
+  <div
+    className="MuiPaper-root-9 MuiPaper-elevation2-13 MuiPaper-rounded-10 SearchBar-root-1 SearchBar"
+    style={
+      Object {
+        "marginLeft": "auto",
+        "marginRight": "auto",
+        "marginTop": 100,
+        "maxWidth": 1000,
+      }
+    }
+  >
+    <div
+      className="SearchBar-searchContainer-8"
+    >
+      <div
+        className="MuiInputBase-root-49 MuiInput-root-36 MuiInputBase-fullWidth-58 MuiInput-fullWidth-43 SearchBar-input-7"
+        onClick={[Function]}
+      >
+        <input
+          aria-invalid={undefined}
+          autoComplete={undefined}
+          autoFocus={undefined}
+          className="MuiInputBase-input-59 MuiInput-input-44"
+          defaultValue={undefined}
+          disabled={false}
+          id={undefined}
+          name={undefined}
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onKeyDown={undefined}
+          onKeyUp={[Function]}
+          placeholder="Search"
+          readOnly={undefined}
+          required={undefined}
+          rows={undefined}
+          type="text"
+          value="martha"
+        />
+      </div>
+    </div>
+    <button
+      className="MuiButtonBase-root-72 MuiIconButton-root-66 SearchBar-iconButton-2 SearchBar-searchIconButton-5 SearchBar-iconButtonHidden-3"
+      disabled={false}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      tabIndex="0"
+      type="button"
+    >
+      <span
+        className="MuiIconButton-label-71"
+      >
+        <svg
+          aria-hidden="true"
+          className="MuiSvgIcon-root-75 SearchBar-icon-6"
+          color={undefined}
+          focusable="false"
+          role="presentation"
+          style={
+            Object {
+              "color": "#9e9e9e",
+            }
+          }
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"
+          />
+          <path
+            d="M0 0h24v24H0z"
+            fill="none"
+          />
+        </svg>
+      </span>
+      <span
+        className="MuiTouchRipple-root-84"
+      />
+    </button>
+    <button
+      className="MuiButtonBase-root-72 MuiIconButton-root-66 SearchBar-iconButton-2"
+      disabled={false}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      tabIndex="0"
+      type="button"
+    >
+      <span
+        className="MuiIconButton-label-71"
+      >
+        <svg
+          aria-hidden="true"
+          className="MuiSvgIcon-root-75 SearchBar-icon-6"
+          color={undefined}
+          focusable="false"
+          role="presentation"
+          style={
+            Object {
+              "color": "#9e9e9e",
+            }
+          }
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+          />
+          <path
+            d="M0 0h24v24H0z"
+            fill="none"
+          />
+        </svg>
+      </span>
+      <span
+        className="MuiTouchRipple-root-84"
+      />
+    </button>
+  </div>
+  <div
+    className="SearchResults"
+  />
+  <div
+    className="SearchDetails"
+  />
+</div>
+`;
+
+exports[`Search bar should be disabled when the search field is blank 1`] = `
+<div
+  className="Search"
+>
+  <div
+    className="MuiPaper-root-9 MuiPaper-elevation2-13 MuiPaper-rounded-10 SearchBar-root-1 SearchBar"
+    style={
+      Object {
+        "marginLeft": "auto",
+        "marginRight": "auto",
+        "marginTop": 100,
+        "maxWidth": 1000,
+      }
+    }
+  >
+    <div
+      className="SearchBar-searchContainer-8"
+    >
+      <div
+        className="MuiInputBase-root-49 MuiInput-root-36 MuiInputBase-fullWidth-58 MuiInput-fullWidth-43 SearchBar-input-7"
+        onClick={[Function]}
+      >
+        <input
+          aria-invalid={undefined}
+          autoComplete={undefined}
+          autoFocus={undefined}
+          className="MuiInputBase-input-59 MuiInput-input-44"
+          defaultValue={undefined}
+          disabled={false}
+          id={undefined}
+          name={undefined}
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onKeyDown={undefined}
+          onKeyUp={[Function]}
+          placeholder="Search"
+          readOnly={undefined}
+          required={undefined}
+          rows={undefined}
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+    <button
+      className="MuiButtonBase-root-72 MuiIconButton-root-66 SearchBar-iconButton-2 SearchBar-searchIconButton-5"
+      disabled={false}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      tabIndex="0"
+      type="button"
+    >
+      <span
+        className="MuiIconButton-label-71"
+      >
+        <svg
+          aria-hidden="true"
+          className="MuiSvgIcon-root-75 SearchBar-icon-6"
+          color={undefined}
+          focusable="false"
+          role="presentation"
+          style={
+            Object {
+              "color": "#9e9e9e",
+            }
+          }
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"
+          />
+          <path
+            d="M0 0h24v24H0z"
+            fill="none"
+          />
+        </svg>
+      </span>
+      <span
+        className="MuiTouchRipple-root-84"
+      />
+    </button>
+    <button
+      className="MuiButtonBase-root-72 MuiIconButton-root-66 SearchBar-iconButton-2 SearchBar-iconButtonHidden-3"
+      disabled={false}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      tabIndex="0"
+      type="button"
+    >
+      <span
+        className="MuiIconButton-label-71"
+      >
+        <svg
+          aria-hidden="true"
+          className="MuiSvgIcon-root-75 SearchBar-icon-6"
+          color={undefined}
+          focusable="false"
+          role="presentation"
+          style={
+            Object {
+              "color": "#9e9e9e",
+            }
+          }
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+          />
+          <path
+            d="M0 0h24v24H0z"
+            fill="none"
+          />
+        </svg>
+      </span>
+      <span
+        className="MuiTouchRipple-root-84"
+      />
+    </button>
+  </div>
+  <div
+    id="welcome"
+  >
+    <p>
+      Enter your favorite hero or villain!
+    </p>
+  </div>
+  <div
+    className="SearchResults"
+  />
+  <div
+    className="SearchDetails"
+  />
+</div>
+`;
+
+exports[`Search bar should be enabled when the search field is not blank 1`] = `
+<div
+  className="Search"
+>
+  <div
+    className="MuiPaper-root-9 MuiPaper-elevation2-13 MuiPaper-rounded-10 SearchBar-root-1 SearchBar"
+    style={
+      Object {
+        "marginLeft": "auto",
+        "marginRight": "auto",
+        "marginTop": 100,
+        "maxWidth": 1000,
+      }
+    }
+  >
+    <div
+      className="SearchBar-searchContainer-8"
+    >
+      <div
+        className="MuiInputBase-root-49 MuiInput-root-36 MuiInputBase-fullWidth-58 MuiInput-fullWidth-43 SearchBar-input-7"
+        onClick={[Function]}
+      >
+        <input
+          aria-invalid={undefined}
+          autoComplete={undefined}
+          autoFocus={undefined}
+          className="MuiInputBase-input-59 MuiInput-input-44"
+          defaultValue={undefined}
+          disabled={false}
+          id={undefined}
+          name={undefined}
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onKeyDown={undefined}
+          onKeyUp={[Function]}
+          placeholder="Search"
+          readOnly={undefined}
+          required={undefined}
+          rows={undefined}
+          type="text"
+          value="MARTHAAAAAAAAAAAAAAAA"
+        />
+      </div>
+    </div>
+    <button
+      className="MuiButtonBase-root-72 MuiIconButton-root-66 SearchBar-iconButton-2 SearchBar-searchIconButton-5 SearchBar-iconButtonHidden-3"
+      disabled={false}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      tabIndex="0"
+      type="button"
+    >
+      <span
+        className="MuiIconButton-label-71"
+      >
+        <svg
+          aria-hidden="true"
+          className="MuiSvgIcon-root-75 SearchBar-icon-6"
+          color={undefined}
+          focusable="false"
+          role="presentation"
+          style={
+            Object {
+              "color": "#9e9e9e",
+            }
+          }
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"
+          />
+          <path
+            d="M0 0h24v24H0z"
+            fill="none"
+          />
+        </svg>
+      </span>
+      <span
+        className="MuiTouchRipple-root-84"
+      />
+    </button>
+    <button
+      className="MuiButtonBase-root-72 MuiIconButton-root-66 SearchBar-iconButton-2"
+      disabled={false}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      tabIndex="0"
+      type="button"
+    >
+      <span
+        className="MuiIconButton-label-71"
+      >
+        <svg
+          aria-hidden="true"
+          className="MuiSvgIcon-root-75 SearchBar-icon-6"
+          color={undefined}
+          focusable="false"
+          role="presentation"
+          style={
+            Object {
+              "color": "#9e9e9e",
+            }
+          }
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+          />
+          <path
+            d="M0 0h24v24H0z"
+            fill="none"
+          />
+        </svg>
+      </span>
+      <span
+        className="MuiTouchRipple-root-84"
+      />
+    </button>
+  </div>
+  <div
+    id="welcome"
+  >
+    <p>
+      Enter your favorite hero or villain!
+    </p>
+  </div>
+  <div
+    className="SearchResults"
+  />
+  <div
+    className="SearchDetails"
+  />
+</div>
+`;
+
+exports[`Search bar should start with an empty search field 1`] = `
+<div
+  className="Search"
+>
+  <div
+    className="MuiPaper-root-9 MuiPaper-elevation2-13 MuiPaper-rounded-10 SearchBar-root-1 SearchBar"
+    style={
+      Object {
+        "marginLeft": "auto",
+        "marginRight": "auto",
+        "marginTop": 100,
+        "maxWidth": 1000,
+      }
+    }
+  >
+    <div
+      className="SearchBar-searchContainer-8"
+    >
+      <div
+        className="MuiInputBase-root-49 MuiInput-root-36 MuiInputBase-fullWidth-58 MuiInput-fullWidth-43 SearchBar-input-7"
+        onClick={[Function]}
+      >
+        <input
+          aria-invalid={undefined}
+          autoComplete={undefined}
+          autoFocus={undefined}
+          className="MuiInputBase-input-59 MuiInput-input-44"
+          defaultValue={undefined}
+          disabled={false}
+          id={undefined}
+          name={undefined}
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onKeyDown={undefined}
+          onKeyUp={[Function]}
+          placeholder="Search"
+          readOnly={undefined}
+          required={undefined}
+          rows={undefined}
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+    <button
+      className="MuiButtonBase-root-72 MuiIconButton-root-66 SearchBar-iconButton-2 SearchBar-searchIconButton-5"
+      disabled={false}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      tabIndex="0"
+      type="button"
+    >
+      <span
+        className="MuiIconButton-label-71"
+      >
+        <svg
+          aria-hidden="true"
+          className="MuiSvgIcon-root-75 SearchBar-icon-6"
+          color={undefined}
+          focusable="false"
+          role="presentation"
+          style={
+            Object {
+              "color": "#9e9e9e",
+            }
+          }
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"
+          />
+          <path
+            d="M0 0h24v24H0z"
+            fill="none"
+          />
+        </svg>
+      </span>
+      <span
+        className="MuiTouchRipple-root-84"
+      />
+    </button>
+    <button
+      className="MuiButtonBase-root-72 MuiIconButton-root-66 SearchBar-iconButton-2 SearchBar-iconButtonHidden-3"
+      disabled={false}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      tabIndex="0"
+      type="button"
+    >
+      <span
+        className="MuiIconButton-label-71"
+      >
+        <svg
+          aria-hidden="true"
+          className="MuiSvgIcon-root-75 SearchBar-icon-6"
+          color={undefined}
+          focusable="false"
+          role="presentation"
+          style={
+            Object {
+              "color": "#9e9e9e",
+            }
+          }
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+          />
+          <path
+            d="M0 0h24v24H0z"
+            fill="none"
+          />
+        </svg>
+      </span>
+      <span
+        className="MuiTouchRipple-root-84"
+      />
+    </button>
+  </div>
+  <div
+    id="welcome"
+  >
+    <p>
+      Enter your favorite hero or villain!
+    </p>
+  </div>
+  <div
+    className="SearchResults"
+  />
+  <div
+    className="SearchDetails"
+  />
+</div>
+`;
+
+exports[`Search details API calls should populate the hero team container when add button is clicked 1`] = `
+<div
+  className="Search"
+>
+  <div
+    className="MuiPaper-root-9 MuiPaper-elevation2-13 MuiPaper-rounded-10 SearchBar-root-1 SearchBar"
+    style={
+      Object {
+        "marginLeft": "auto",
+        "marginRight": "auto",
+        "marginTop": 100,
+        "maxWidth": 1000,
+      }
+    }
+  >
+    <div
+      className="SearchBar-searchContainer-8"
+    >
+      <div
+        className="MuiInputBase-root-49 MuiInput-root-36 MuiInputBase-fullWidth-58 MuiInput-fullWidth-43 SearchBar-input-7"
+        onClick={[Function]}
+      >
+        <input
+          aria-invalid={undefined}
+          autoComplete={undefined}
+          autoFocus={undefined}
+          className="MuiInputBase-input-59 MuiInput-input-44"
+          defaultValue={undefined}
+          disabled={false}
+          id={undefined}
+          name={undefined}
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onKeyDown={undefined}
+          onKeyUp={[Function]}
+          placeholder="Search"
+          readOnly={undefined}
+          required={undefined}
+          rows={undefined}
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+    <button
+      className="MuiButtonBase-root-72 MuiIconButton-root-66 SearchBar-iconButton-2 SearchBar-searchIconButton-5"
+      disabled={false}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      tabIndex="0"
+      type="button"
+    >
+      <span
+        className="MuiIconButton-label-71"
+      >
+        <svg
+          aria-hidden="true"
+          className="MuiSvgIcon-root-75 SearchBar-icon-6"
+          color={undefined}
+          focusable="false"
+          role="presentation"
+          style={
+            Object {
+              "color": "#9e9e9e",
+            }
+          }
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"
+          />
+          <path
+            d="M0 0h24v24H0z"
+            fill="none"
+          />
+        </svg>
+      </span>
+      <span
+        className="MuiTouchRipple-root-84"
+      />
+    </button>
+    <button
+      className="MuiButtonBase-root-72 MuiIconButton-root-66 SearchBar-iconButton-2 SearchBar-iconButtonHidden-3"
+      disabled={false}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      tabIndex="0"
+      type="button"
+    >
+      <span
+        className="MuiIconButton-label-71"
+      >
+        <svg
+          aria-hidden="true"
+          className="MuiSvgIcon-root-75 SearchBar-icon-6"
+          color={undefined}
+          focusable="false"
+          role="presentation"
+          style={
+            Object {
+              "color": "#9e9e9e",
+            }
+          }
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+          />
+          <path
+            d="M0 0h24v24H0z"
+            fill="none"
+          />
+        </svg>
+      </span>
+      <span
+        className="MuiTouchRipple-root-84"
+      />
+    </button>
+  </div>
+  <div
+    id="welcome"
+  >
+    <p>
+      Enter your favorite hero or villain!
+    </p>
+  </div>
+  <div
+    className="SearchResults"
+  />
+  <div
+    className="SearchDetails"
+  />
+  <div
+    className="HeroTeam"
+  >
+    <div
+      id="team-text"
+    >
+      <h2>
+        YOUR TEAM
+      </h2>
+      <h2>
+        Team Score: 
+      </h2>
+      <h1>
+        17
+      </h1>
+    </div>
+    <div
+      id="select-hero"
+    >
+      <div
+        className="Hero"
+      >
+        <div
+          className="hero-image"
+          style={
+            Object {
+              "backgroundImage": "url(https://www.superherodb.com/pictures2/portraits/10/100/10441.jpg)",
+              "cursor": "pointer",
+            }
+          }
+        >
+          <button
+            aria-label="Delete"
+            className="MuiButtonBase-root-72 MuiButton-root-91 MuiButton-contained-102 MuiButton-containedSecondary-104 MuiButton-raised-105 MuiButton-raisedSecondary-107 MuiButton-sizeSmall-114"
+            disabled={false}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            tabIndex="0"
+            type="button"
+          >
+            <span
+              className="MuiButton-label-92"
+            >
+              <svg
+                aria-hidden="true"
+                className="MuiSvgIcon-root-75 MuiSvgIcon-fontSizeSmall-82"
+                color={undefined}
+                focusable="false"
+                role="presentation"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zM19 4h-3.5l-1-1h-5l-1 1H5v2h14V4z"
+                />
+                <path
+                  d="M0 0h24v24H0z"
+                  fill="none"
+                />
+              </svg>
+            </span>
+            <span
+              className="MuiTouchRipple-root-84"
+            />
+          </button>
+          <div
+            className="text-box"
+          >
+            <p>
+              Batman
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Search details failed API calls should display an alert when the API call fails 1`] = `
+<div
+  className="Search"
+>
+  <div
+    className="MuiPaper-root-9 MuiPaper-elevation2-13 MuiPaper-rounded-10 SearchBar-root-1 SearchBar"
+    style={
+      Object {
+        "marginLeft": "auto",
+        "marginRight": "auto",
+        "marginTop": 100,
+        "maxWidth": 1000,
+      }
+    }
+  >
+    <div
+      className="SearchBar-searchContainer-8"
+    >
+      <div
+        className="MuiInputBase-root-49 MuiInput-root-36 MuiInputBase-fullWidth-58 MuiInput-fullWidth-43 SearchBar-input-7"
+        onClick={[Function]}
+      >
+        <input
+          aria-invalid={undefined}
+          autoComplete={undefined}
+          autoFocus={undefined}
+          className="MuiInputBase-input-59 MuiInput-input-44"
+          defaultValue={undefined}
+          disabled={false}
+          id={undefined}
+          name={undefined}
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onKeyDown={undefined}
+          onKeyUp={[Function]}
+          placeholder="Search"
+          readOnly={undefined}
+          required={undefined}
+          rows={undefined}
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+    <button
+      className="MuiButtonBase-root-72 MuiIconButton-root-66 SearchBar-iconButton-2 SearchBar-searchIconButton-5"
+      disabled={false}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      tabIndex="0"
+      type="button"
+    >
+      <span
+        className="MuiIconButton-label-71"
+      >
+        <svg
+          aria-hidden="true"
+          className="MuiSvgIcon-root-75 SearchBar-icon-6"
+          color={undefined}
+          focusable="false"
+          role="presentation"
+          style={
+            Object {
+              "color": "#9e9e9e",
+            }
+          }
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"
+          />
+          <path
+            d="M0 0h24v24H0z"
+            fill="none"
+          />
+        </svg>
+      </span>
+      <span
+        className="MuiTouchRipple-root-84"
+      />
+    </button>
+    <button
+      className="MuiButtonBase-root-72 MuiIconButton-root-66 SearchBar-iconButton-2 SearchBar-iconButtonHidden-3"
+      disabled={false}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      tabIndex="0"
+      type="button"
+    >
+      <span
+        className="MuiIconButton-label-71"
+      >
+        <svg
+          aria-hidden="true"
+          className="MuiSvgIcon-root-75 SearchBar-icon-6"
+          color={undefined}
+          focusable="false"
+          role="presentation"
+          style={
+            Object {
+              "color": "#9e9e9e",
+            }
+          }
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+          />
+          <path
+            d="M0 0h24v24H0z"
+            fill="none"
+          />
+        </svg>
+      </span>
+      <span
+        className="MuiTouchRipple-root-84"
+      />
+    </button>
+  </div>
+  <div
+    id="welcome"
+  >
+    <p>
+      Enter your favorite hero or villain!
+    </p>
+  </div>
+  <div
+    className="SearchResults"
+  />
+  <div
+    className="SearchDetails"
+  />
+</div>
+`;
+
+exports[`Search results API calls should populate the selected details container when search results arrive 1`] = `
+<div
+  className="Search"
+>
+  <div
+    className="MuiPaper-root-9 MuiPaper-elevation2-13 MuiPaper-rounded-10 SearchBar-root-1 SearchBar"
+    style={
+      Object {
+        "marginLeft": "auto",
+        "marginRight": "auto",
+        "marginTop": 100,
+        "maxWidth": 1000,
+      }
+    }
+  >
+    <div
+      className="SearchBar-searchContainer-8"
+    >
+      <div
+        className="MuiInputBase-root-49 MuiInput-root-36 MuiInputBase-fullWidth-58 MuiInput-fullWidth-43 SearchBar-input-7"
+        onClick={[Function]}
+      >
+        <input
+          aria-invalid={undefined}
+          autoComplete={undefined}
+          autoFocus={undefined}
+          className="MuiInputBase-input-59 MuiInput-input-44"
+          defaultValue={undefined}
+          disabled={false}
+          id={undefined}
+          name={undefined}
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onKeyDown={undefined}
+          onKeyUp={[Function]}
+          placeholder="Search"
+          readOnly={undefined}
+          required={undefined}
+          rows={undefined}
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+    <button
+      className="MuiButtonBase-root-72 MuiIconButton-root-66 SearchBar-iconButton-2 SearchBar-searchIconButton-5"
+      disabled={false}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      tabIndex="0"
+      type="button"
+    >
+      <span
+        className="MuiIconButton-label-71"
+      >
+        <svg
+          aria-hidden="true"
+          className="MuiSvgIcon-root-75 SearchBar-icon-6"
+          color={undefined}
+          focusable="false"
+          role="presentation"
+          style={
+            Object {
+              "color": "#9e9e9e",
+            }
+          }
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"
+          />
+          <path
+            d="M0 0h24v24H0z"
+            fill="none"
+          />
+        </svg>
+      </span>
+      <span
+        className="MuiTouchRipple-root-84"
+      />
+    </button>
+    <button
+      className="MuiButtonBase-root-72 MuiIconButton-root-66 SearchBar-iconButton-2 SearchBar-iconButtonHidden-3"
+      disabled={false}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      tabIndex="0"
+      type="button"
+    >
+      <span
+        className="MuiIconButton-label-71"
+      >
+        <svg
+          aria-hidden="true"
+          className="MuiSvgIcon-root-75 SearchBar-icon-6"
+          color={undefined}
+          focusable="false"
+          role="presentation"
+          style={
+            Object {
+              "color": "#9e9e9e",
+            }
+          }
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+          />
+          <path
+            d="M0 0h24v24H0z"
+            fill="none"
+          />
+        </svg>
+      </span>
+      <span
+        className="MuiTouchRipple-root-84"
+      />
+    </button>
+  </div>
+  <div
+    id="welcome"
+  >
+    <p>
+      Enter your favorite hero or villain!
+    </p>
+  </div>
+  <div
+    className="SearchResults"
+  />
+  <div
+    className="SearchDetails"
+  >
+    <div
+      id="hero-details"
+    >
+      <div
+        id="col-1"
+      >
+        <h2>
+          Batman
+        </h2>
+        <img
+          alt="69"
+          id="image-details"
+          src="https://www.superherodb.com/pictures2/portraits/10/100/10441.jpg"
+        />
+        <div
+          id="button-wrapper"
+        >
+          <button
+            className="MuiButtonBase-root-72 MuiButton-root-91 MuiButton-contained-102 MuiButton-raised-105 MuiButton-sizeLarge-115"
+            disabled={false}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            tabIndex="0"
+            type="button"
+          >
+            <span
+              className="MuiButton-label-92"
+            >
+              Add
+            </span>
+            <span
+              className="MuiTouchRipple-root-84"
+            />
+          </button>
+        </div>
+      </div>
+      <div
+        id="col-2"
+      >
+        <h2>
+          Powerstats
+        </h2>
+        <p>
+          intelligence
+          : 
+          81
+        </p>
+        <p>
+          strength
+          : 
+          40
+        </p>
+        <p>
+          speed
+          : 
+          29
+        </p>
+        <p>
+          durability
+          : 
+          55
+        </p>
+        <p>
+          power
+          : 
+          63
+        </p>
+        <p>
+          combat
+          : 
+          90
+        </p>
+      </div>
+      <div
+        id="col-3"
+      >
+        <h2>
+          Biography
+        </h2>
+        <p>
+          full name
+          : 
+          Terry McGinnis
+        </p>
+        <p>
+          alter egos
+          : 
+          No alter egos found.
+        </p>
+        <p>
+          aliases
+          : 
+          Batman II, The Tomorrow Knight, The second Dark Knight, The Dark Knight of Tomorrow, Batman Beyond
+        </p>
+        <p>
+          place of birth
+          : 
+          Gotham City, 25th Century
+        </p>
+        <p>
+          first appearance
+          : 
+          Batman Beyond #1
+        </p>
+        <p>
+          publisher
+          : 
+          DC Comics
+        </p>
+        <p>
+          alignment
+          : 
+          good
+        </p>
+      </div>
+      <div
+        id="col-4"
+      >
+        <h2>
+          Appearance
+        </h2>
+        <p>
+          gender
+          : 
+          Male
+        </p>
+        <p>
+          race
+          : 
+          Human
+        </p>
+        <p>
+          height
+          : 
+          5'10, 178 cm
+        </p>
+        <p>
+          weight
+          : 
+          170 lb, 77 kg
+        </p>
+        <p>
+          eye color
+          : 
+          Blue
+        </p>
+        <p>
+          hair color
+          : 
+          Black
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Search results failed API calls should display an alert when the API call fails 1`] = `
+<div
+  className="Search"
+>
+  <div
+    className="MuiPaper-root-9 MuiPaper-elevation2-13 MuiPaper-rounded-10 SearchBar-root-1 SearchBar"
+    style={
+      Object {
+        "marginLeft": "auto",
+        "marginRight": "auto",
+        "marginTop": 100,
+        "maxWidth": 1000,
+      }
+    }
+  >
+    <div
+      className="SearchBar-searchContainer-8"
+    >
+      <div
+        className="MuiInputBase-root-49 MuiInput-root-36 MuiInputBase-fullWidth-58 MuiInput-fullWidth-43 SearchBar-input-7"
+        onClick={[Function]}
+      >
+        <input
+          aria-invalid={undefined}
+          autoComplete={undefined}
+          autoFocus={undefined}
+          className="MuiInputBase-input-59 MuiInput-input-44"
+          defaultValue={undefined}
+          disabled={false}
+          id={undefined}
+          name={undefined}
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onKeyDown={undefined}
+          onKeyUp={[Function]}
+          placeholder="Search"
+          readOnly={undefined}
+          required={undefined}
+          rows={undefined}
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+    <button
+      className="MuiButtonBase-root-72 MuiIconButton-root-66 SearchBar-iconButton-2 SearchBar-searchIconButton-5"
+      disabled={false}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      tabIndex="0"
+      type="button"
+    >
+      <span
+        className="MuiIconButton-label-71"
+      >
+        <svg
+          aria-hidden="true"
+          className="MuiSvgIcon-root-75 SearchBar-icon-6"
+          color={undefined}
+          focusable="false"
+          role="presentation"
+          style={
+            Object {
+              "color": "#9e9e9e",
+            }
+          }
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"
+          />
+          <path
+            d="M0 0h24v24H0z"
+            fill="none"
+          />
+        </svg>
+      </span>
+      <span
+        className="MuiTouchRipple-root-84"
+      />
+    </button>
+    <button
+      className="MuiButtonBase-root-72 MuiIconButton-root-66 SearchBar-iconButton-2 SearchBar-iconButtonHidden-3"
+      disabled={false}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      tabIndex="0"
+      type="button"
+    >
+      <span
+        className="MuiIconButton-label-71"
+      >
+        <svg
+          aria-hidden="true"
+          className="MuiSvgIcon-root-75 SearchBar-icon-6"
+          color={undefined}
+          focusable="false"
+          role="presentation"
+          style={
+            Object {
+              "color": "#9e9e9e",
+            }
+          }
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+          />
+          <path
+            d="M0 0h24v24H0z"
+            fill="none"
+          />
+        </svg>
+      </span>
+      <span
+        className="MuiTouchRipple-root-84"
+      />
+    </button>
+  </div>
+  <div
+    id="welcome"
+  >
+    <p>
+      Enter your favorite hero or villain!
+    </p>
+  </div>
+  <div
+    className="SearchResults"
+  />
+  <div
+    className="SearchDetails"
+  />
+</div>
+`;
