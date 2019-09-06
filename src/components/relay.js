@@ -13,7 +13,7 @@ app.use('/', (req, res) => {
 
     res.header('Access-Control-Allow-Origin', '*');
     res.header('Access-Control-Allow-Headers','Origin, X-Requested-With, Content-Type, Accept');
-    res.header('access-control-allow-methods', 'GET, OPTIONS')
+    res.header('Access-Control-Allow-Methods', 'GET, OPTIONS')
     req.pipe(request(url)).pipe(res);
 });
 
