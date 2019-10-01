@@ -7,6 +7,8 @@ A React App utilizing the [Superhero API](https://superheroapi.com) to create di
 
 From a fresh clone, run `npm install`.
 
+
+
 ## Execution
 
 To configure the API to fetch properly, first start the relay server. If you are in the main directory, go to the components folder by typing `cd src/components` and then run `NODE_TLS_REJECT_UNAUTHORIZED=0 node relay.js`. You should get a prompt in your terminal that says `Starting super-simple HTTP relay server...`
